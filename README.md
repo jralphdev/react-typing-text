@@ -25,7 +25,7 @@ npm install @jralphm_dev/react-typing-text
 ## 🚀 Usage
 
 ```tsx
-import TypingText from '@jralphdev/react-typing-text';
+import TypingText from '@jralphm_dev/react-typing-text';
 
 export default function App() {
   const demoText = [

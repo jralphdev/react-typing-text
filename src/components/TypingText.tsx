@@ -1,4 +1,3 @@
-import '../index.css';
 import { useEffect, useMemo, useState, type ComponentProps } from 'react';
 
 interface TypingTextProps {
@@ -75,7 +74,7 @@ const TypingText = ({
   return (
     <span className={className}>
       {displayText}
-      {showCursor && <span className='inline-block w-2'>{cursor}</span>}
+      {showCursor && <span style={{ width: '1ch', display: 'inline-block' }}>{cursor}</span>}
     </span>
   );
 };
