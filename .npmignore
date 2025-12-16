@@ -1,0 +1,29 @@
+# Source files
+example/
+src/
+gif/
+*.ts
+*.tsx
+
+# Configs
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+tsconfig*.json
+.eslintrc.js
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+!README.md
+!LICENSE
+!dist/
